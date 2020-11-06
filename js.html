@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios</title>
+  </head>
+  <body>
+    <script>
+      //Ejercicio 1
+      //   console.log("Pasame tu edad rey: ");
+      //   let edad = prompt();
+      //   document.write(edad);
+      //   if (edad > 18) {
+      //     console.log("Ya tenes edad para conducir semejante facha");
+      //   }
+      //   console.log("No podes conducir rey, te va llevar la cana pa");
+
+      //Ejercicio 2
+      //   console.log("Ingresa tu nota maquina: ");
+      //   let nota = prompt();
+      //   document.write(nota);
+      //   if (nota >= 0 && nota < 3) {
+      //     console.log("Nota: Muy deficiente");
+      //   } else if (nota >= 3 && nota < 5) {
+      //     console.log("Nota: Insuficiente");
+      //   } else if (nota == 5 || nota == 6) {
+      //     console.log("Nota: Suficiente");
+      //   } else if (nota == 6 || nota == 7) {
+      //     console.log("Nota: Bien pa");
+      //   } else if (nota > 7 && nota <= 9) {
+      //     console.log("Nota: Notable");
+      //   } else if (nota == 9 || nota == 10) {
+      //     console.log("Nota: Sobresaliente");
+      //   }
+      //Ejercicio 3
+      console.log(
+        "Si desea ingresar una palabra digite 'Si', de lo contrario escriba 'Cancelar':"
+      );
+      const eleccion = prompt();
+      document.write(eleccion);
+      const array = [];
+
+      switch (eleccion) {
+        case "Si":
+          console.log("Ingrese una palabra:");
+          const palabra = prompt();
+          document.write(palabra);
+          palabra = array;
+          break;
+        case "Cancelar":
+          palabra.array.forEach((element) => {
+            console.log(palabra + "-");
+          });
+      }
+    </script>
+  </body>
+</html>
